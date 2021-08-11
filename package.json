@@ -1,0 +1,30 @@
+{
+  "name": "google-authenticator",
+  "version": "1.0.0",
+  "description": "simple 2FA by using google authenticator app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vijayasantham-dev/2FA-google-authenticator.git"
+  },
+  "author": "vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijayasantham-dev/2FA-google-authenticator/issues"
+  },
+  "homepage": "https://github.com/vijayasantham-dev/2FA-google-authenticator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "qrcode": "^1.4.4",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
