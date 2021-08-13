@@ -1,6 +1,6 @@
 # 2FA
 
-simple 2FA demo app by using google authenticator app
+simple 2FA demo app by using TOTP
 
 ### <a href="https://demo2fa.herokuapp.com" target="_blank">Live Demo</a>
 
