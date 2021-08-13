@@ -1,4 +1,4 @@
-# 2FA-google-authenticator
+# 2FA
 
 simple 2FA demo app by using google authenticator app
 
