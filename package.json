@@ -23,6 +23,8 @@
     "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "express-subdomain": "^1.0.5",
+    "jsonwebtoken": "^8.5.1",
     "qrcode": "^1.4.4",
     "speakeasy": "^2.0.0"
   },
