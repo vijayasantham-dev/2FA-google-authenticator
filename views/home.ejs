@@ -16,10 +16,7 @@
       crossorigin="anonymous"
     ></script>
     <title>2FA - Demo</title>
-    <meta
-      name="description"
-      content="simple 2FA demo app by using TOTP"
-    />
+    <meta name="description" content="simple 2FA demo app by using TOTP" />
     <meta property="og:title" content="2FA - Demo" />
     <meta
       property="og:description"
@@ -43,7 +40,7 @@
     <div class="container">
       <% if(success == true) { %>
       <div class="alert alert-success" role="alert">Success</div>
-      <% }else if(success == false) { %>
+      <% } else if(success == false) { %>
       <div class="alert alert-danger" role="alert">Token is in-valid</div>
       <% } else { %>
       <div></div>
@@ -71,7 +68,14 @@
       </form>
     </div>
     <div class="bg-light fixed-bottom w-100 text-center p-3">
-      <div>Created By <a target="_blank" href="https://github.com/vijayasantham-dev/2FA-google-authenticator">Vijayasantham</a></div>
+      <div>
+        Created By
+        <a
+          target="_blank"
+          href="https://github.com/vijayasantham-dev/2FA-google-authenticator"
+          >Vijayasantham</a
+        >
+      </div>
     </div>
   </body>
 </html>
